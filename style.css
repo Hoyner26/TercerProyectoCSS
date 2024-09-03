@@ -1,0 +1,74 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    margin: 0;
+    width: 100%;
+    background: #C39898;
+    overflow: auto;
+    
+}
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    
+}
+.navbar a i{
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.navbar a:hover{
+    background-color: #987070;
+    
+}
+
+.active{
+    background-color: #987070;
+}
+i{
+    padding: 0 5px;
+}
+
+.responsive{
+    display: none;
+
+}
+
+i{
+    padding: 0 5px;
+}
+
+
+
+
+@media (max-width:600px){
+    .responsive{
+        display: block;
+        float: right;
+        padding: 12px;
+        color: white;
+    }
+    a{
+        display: none;
+        
+    }
+}
+
+.introduccion{
+    text-align: center;
+    margin: 0 15%;
+
+}
+
+
+
+
+

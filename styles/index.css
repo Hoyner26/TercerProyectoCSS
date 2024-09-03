@@ -1,0 +1,18 @@
+h3 {
+    background: radial-gradient(circle at center center, #99F2C8 0%, #1f4037 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.links a {
+    display: flex;
+    background-color: #d7a26d;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid white;
+   
+}
+
+.links a:hover {
+    background-color: #cdb9a6;
+}

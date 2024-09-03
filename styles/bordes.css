@@ -1,0 +1,55 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 12% 12% auto;
+    gap: 50px;
+    background-color: #d19a9a83;
+    padding: 15px;
+    justify-content: space-evenly;
+
+}
+
+.grid-container > div{
+    background-color: rgb(189, 189, 189); 
+    text-align: center;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+}
+
+.solid{
+    border: 5px solid rgb(255, 0, 0); 
+}
+.dotted{
+    border: 5px dotted rgb(0, 255, 0);
+}
+.dashed{
+    border: 5px dashed rgb(255, 255, 0);
+}
+.double{
+    border: 5px double rgb(255, 255, 255);
+}
+.groove{
+    border: 5px groove rgb(255, 0, 255);
+}
+.ridge{
+    border: 5px  ridge rgb(0, 0, 255); 
+}
+.inset{
+    border: 5px inset rgb(0, 224, 194);
+}
+.outset{
+    border: 5px outset rgb(0, 255, 106);
+}
+
+hr{
+    height: 3px;
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px rgb(83, 14, 14, 0.8);
+    border: inset rgb(162, 27, 27) ;
+}
+h1{
+    color: rgb(223, 120, 56);
+}
+
